@@ -1,6 +1,6 @@
 #!/bin/sh
 SOURCE_PATH="src"
-mkdir ${SOURCE_PATH}
+mkdir -p ${SOURCE_PATH}
 git clone https://github.com/openbmc/phosphor-dbus-interfaces.git ${SOURCE_PATH}/phosphor-dbus-interfaces
 git clone https://github.com/openbmc/phosphor-hwmon.git ${SOURCE_PATH}/phosphor-hwmon
 git clone https://github.com/openbmc/phosphor-led-manager.git ${SOURCE_PATH}/phosphor-led-manager
